@@ -4,38 +4,39 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #000;
+    background-color: black;
 }
 /* container */
 .container{
     display: flex;
-    height: 500px;
-    width: 800px;
-    border: 1px solid white;
+    border: 1px solid black;
     margin: auto;
     margin-top: 50px;
-    box-shadow: 15px 15px 20px white;
+    box-shadow: 0px 0px 45px whitesmoke;
+    justify-content: center;
+    min-width: 100px;
+    max-width: 620px;
 }
 /* login form */
 .form{
     display: flex;
-    flex-direction: column;
-    width: 50%;
     align-items: center;
     background-color: whitesmoke;
+    width: 53%;
+    flex-direction: column;
 }
 .form h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 40px;
 }
 .box{
     padding: 10px;
-    width: 65%;
-    margin: 15px;
-    border: 1px solid black;
+    width: 75%;
+    margin: 5px;
+    border: 1.5px solid black;
     outline: none;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 /* right side */
 .side{
@@ -46,6 +47,5 @@ body{
     background-color: white;
 }
 .side img{
-    width: 450px;
-    height: 450px;
+    width: 300px;
 }
